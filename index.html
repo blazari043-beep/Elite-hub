@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Elite Hub</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #07000d;
+    color: white;
+}
+
+header {
+    padding: 22px;
+    text-align: center;
+    border-bottom: 1px solid #7b2cff;
+    background: #0d0018;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: 900;
+    color: #b65cff;
+    text-shadow: 0 0 20px #8a2be2;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 8px;
+    font-size: 14px;
+}
+
+.hero {
+    text-align: center;
+    padding: 70px 20px;
+    background: radial-gradient(circle, #35105f, #07000d 65%);
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #c77dff;
+    text-shadow: 0 0 25px #8a2be2;
+}
+
+.hero p {
+    margin: 15px 0 25px;
+    color: #ddd;
+}
+
+.btn {
+    display: inline-block;
+    padding: 14px 25px;
+    background: #8a2be2;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 0 0 20px #8a2be2;
+}
+
+section {
+    padding: 45px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.title {
+    text-align: center;
+    color: #c77dff;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #10051a;
+    border: 1px solid #7226c9;
+    border-radius: 15px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 0 15px #24063f;
+}
+
+.card h3 {
+    color: #c77dff;
+    margin-bottom: 12px;
+}
+
+.price {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+ul {
+    list-style: none;
+    line-height: 1.9;
+    color: #ddd;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #0d0018;
+    border-top: 1px solid #7226c9;
+    color: #aaa;
+}
+
+@media (max-width: 600px) {
+    .hero h1 {
+        font-size: 38px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">⚡ ELITE HUB</div>
+
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#precos">Preços</a>
+        <a href="#contato">Contato</a>
+    </nav>
+</header>
+
+<section class="hero" id="inicio">
+    <h1>ELITE HUB</h1>
+
+    <p>
+        Serviços gaming com qualidade, rapidez e atendimento.
+    </p>
+
+    <a class="btn" href="#servicos">VER SERVIÇOS</a>
+</section>
+
+<section id="servicos">
+
+    <h2 class="title">SERVIÇOS</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>🏐 Volleyball Legends</h3>
+            <p>Serviços relacionados ao jogo.</p>
+            <br>
+            <a class="btn" href="#precos">VER PREÇOS</a>
+        </div>
+
+        <div class="card">
+            <h3>🏴‍☠️ Blox Fruits</h3>
+            <p>Serviços e farm disponíveis.</p>
+            <br>
+            <a class="btn" href="#contato">SAIBA MAIS</a>
+        </div>
+
+        <div class="card">
+            <h3>🎮 Outros Serviços</h3>
+            <p>Entre em contato para consultar disponibilidade.</p>
+            <br>
+            <a class="btn" href="#contato">CONTATO</a>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="precos">
+
+    <h2 class="title">VOLLEYBALL LEGENDS</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>🍀 Lucky Spin</h3>
+
+            <ul>
+                <li>25 — R$5</li>
+                <li>50 — R$7</li>
+                <li>75 — R$9</li>
+                <li>100 — R$12</li>
+                <li>150 — R$16</li>
+                <li>200 — R$20</li>
+                <li>250 — R$25</li>
+                <li>300 — R$30</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>🎟️ Tokens</h3>
+
+            <ul>
+                <li>25 — R$5</li>
+                <li>50 — R$7</li>
+                <li>75 — R$9</li>
+                <li>100 — R$12</li>
+                <li>150 — R$16</li>
+                <li>200 — R$20</li>
+                <li>250 — R$25</li>
+                <li>300 — R$30</li>
+            </ul>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="contato">
+
+    <h2 class="title">SUPORTE</h2>
+
+    <div class="card">
+
+        <h3>💜 Precisa de atendimento?</h3>
+
+        <p>
+            Entre em contato com a Elite Hub para consultar
+            disponibilidade e realizar seu pedido.
+        </p>
+
+        <br>
+
+        <a class="btn" href="https://discord.com" target="_blank">
+            FALAR CONOSCO
+        </a>
+
+    </div>
+
+</section>
+
+<footer>
+    © 2026 Elite Hub — Todos os direitos reservados.
+</footer>
+
+</body>
+</html>
